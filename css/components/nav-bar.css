@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding:20px 50px;
+    border-top: 1px solid rgba(63, 61, 61, 0.1)
+    
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav__link{
+    color: #38414b;
+    position: relative;
+}
+
+@keyframes newContents{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(45deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+.nav__notification{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    animation: newContents 1s ease-in-out infinite;
+}
+.nav__notification2{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+
+}

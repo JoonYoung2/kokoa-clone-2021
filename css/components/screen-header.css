@@ -1,0 +1,39 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--horizontal-space);
+    align-items: center;
+}
+
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.screen-header__icon span{
+    margin-left: 25px;
+}
+.screen-header__icon{
+    position: relative;
+}
+
+.screen-header__icon__notification{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    bottom: 17px;
+}
+
+.screen-header__icon-new{
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 2.5px;
+    position:absolute;
+    right: -7px;
+    top: -7px;
+}
