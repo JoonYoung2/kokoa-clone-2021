@@ -3,6 +3,9 @@
     padding: 35px 20px;
 }
 
+.main-setting:last-child{
+    padding-bottom: 90px;
+}
 .main-setting__list__li{
     display: flex;
     justify-content: space-between;
